@@ -1,0 +1,917 @@
+commit 62f5fc5934e3f8183d40ba6e59ae5892dfc7b032 (HEAD, tag: v0.9.0, origin/main, origin/HEAD, main)
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-20
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-20
+
+    Bump package and library versions
+
+commit e34c5de7174e9f825dadfa8b330cd06b0c851446
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-20
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-20
+
+    Update AUTHORS
+
+commit 1aee15bf42762a48c300f5088f78131c95d30ace
+Merge: a42257d3 b63bfc3f
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-20
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-20
+
+    Merge pull request #574 from ngtcp2/fix-wolfssl-version
+    
+    wolfSSL 5.5.0 has built-in QUIC support
+
+commit b63bfc3ff446e75ed094e93ae05778b7dcc8b763
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-20
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-20
+
+    wolfSSL 5.5.0 has built-in QUIC support
+
+commit a42257d38c2b26cc0a1a69b840127609d85370bb
+Merge: 4ae05f2c 2af818de
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-19
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-19
+
+    Merge pull request #573 from ngtcp2/uint64-size-max
+    
+    Deal with the case SIZE_MAX == UINT64_MAX
+
+commit 4ae05f2cfe2cb7699742471282754a76525b5230
+Merge: ff008be3 1a7d2103
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-19
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-19
+
+    Merge pull request #572 from ngtcp2/pkt-decode-cleanup
+    
+    Pkt decode cleanup
+
+commit 2af818de46bb181439babfbbb1a796adb3083dd4
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-19
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-19
+
+    Deal with the case SIZE_MAX == UINT64_MAX
+
+commit 1a7d21032553386f9effa0f69d8f50e03bebc4e6
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-19
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-19
+
+    Update doc
+
+commit f1c265b37a73b28cf174b0c4daba3951a7f33097
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-19
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-19
+
+    Return ngtcp2_ssize from ngtcp2_pkt_decode_padding_frame for consistency
+
+commit 2039d801d02e2c48ef2f9629ce5d0b302c494fce
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-19
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-19
+
+    ngtcp2_pkt_decode_frame: Treat payloadlen == 0 as error
+
+commit ff008be31d2ab7d294cda13de12a9aa398a8e812
+Merge: ee71cf30 5037f8fd
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-18
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-18
+
+    Merge pull request #571 from ngtcp2/bump-boringssl
+    
+    Bump boringssl
+
+commit 5037f8fd43522ec4924446f154c52734a208626a
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-18
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-18
+
+    Bump boringssl
+
+commit ee71cf30bfbdd92c7f11e8609ad6256d77103df6
+Merge: 7a144f57 fcdc5e6e
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-18
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-18
+
+    Merge pull request #570 from ngtcp2/adjust-fc-limits
+    
+    client: Adjust flow control limits based on chromium defaults
+
+commit fcdc5e6ea97b39ac77582e3a4a594e9328710839
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-17
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-18
+
+    client: Adjust flow control limits based on chromium defaults
+
+commit 7a144f5750bd441c474d608390f07001dbf7c0b5
+Merge: 3475e952 1d0a92c8
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-18
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-18
+
+    Merge pull request #569 from ngtcp2/h09-fc-auto-tune
+    
+    H09 fc auto tune
+
+commit 1d0a92c8be2fd017104823dc171905e3dacf2a26
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-17
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-18
+
+    h09client: Add --max-window and --max-stream-window options
+
+commit da9a1fd92d9415fc16a688da7325989469f8c5b1
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-17
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-18
+
+    h09server: Add --max-window and --max-stream-window options
+
+commit 3475e95221416e367070a9dcbc43d4ec927d6a0c
+Merge: a3cf5a61 3d9f0c21
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-15
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-15
+
+    Merge pull request #568 from ngtcp2/ptls-openssl3
+    
+    picotls should now work with OpenSSL v3
+
+commit 3d9f0c21c412f371bde339a1f8ac5272efd85f67
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-11
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-15
+
+    picotls should now work with OpenSSL v3
+
+commit a3cf5a61966db0b3b130a86b83778f6d22184ee9
+Merge: 5cf6bd78 fb6745bc
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-14
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-14
+
+    Merge pull request #567 from ngtcp2/check-session-file-write-error
+    
+    Check session file write error
+
+commit 5cf6bd787cf52e9df2b3dc7c042e7a833f7123c9
+Merge: 1e7333ee fbdd1b74
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-14
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-14
+
+    Merge pull request #565 from icing/examples-tests-crypto-scan
+    
+    Examples Tests Improvement
+
+commit fb6745bccf0d448c6b6b177c6ae0040608064564
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-14
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-14
+
+    Check session file write error
+
+commit 1e7333ee421dcd81736298de54e7fe20b9c36348
+Merge: 9c59e9fb a808dbfb
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-14
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-14
+
+    Merge pull request #566 from ngtcp2/examples-style
+    
+    C++ style cast and nullptr
+
+commit 9c59e9fbd6ea0b4907b00fde26b170a2c55a4066
+Merge: 9660840a a71d8f05
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-14
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-14
+
+    Merge pull request #563 from ngtcp2/examples-tests-v
+    
+    Add -v to pytest to get more information on failure
+
+commit 9660840acff45314ea6834e9a0ff349aade6b0e7
+Merge: af8739af fd2eecbc
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-14
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-14
+
+    Merge pull request #564 from ngtcp2/client-wait-for-handshake-confirmed
+    
+    client --exit-on-*: Wait for handshake to be confirmed
+
+commit a808dbfbaa4036dc5afce86458173dcfc068268f
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-13
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-13
+
+    C++ style cast and nullptr
+
+commit af8739aff9f65a46a0c822b44d00cd0a5cdbcc8a
+Merge: 195aba05 11196039
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-13
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-13
+
+    Merge pull request #562 from ngtcp2/fix-wolfssl-mem-leak
+    
+    Fix wolfssl BIO file memory leak
+
+commit fbdd1b74c2607494252379d4075fc26a4c8e8587
+Author:     Stefan Eissing <stefan@eissing.org>
+AuthorDate: 2022-09-13
+Commit:     Stefan Eissing <stefan@eissing.org>
+CommitDate: 2022-09-13
+
+    Examples Tests Improvement
+    
+    - inspect only hex dumps from logs that are preceded by a line
+      matching r'Ordered CRYPTO data in \S+ crypto level`', so
+      that interleaved stream/earlydata does not interfere.
+
+commit fd2eecbc4327749987a9e8099cae9028d5377ccb
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-13
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-13
+
+    client --exit-on-*: Wait for handshake to be confirmed
+
+commit a71d8f0548aba332c357a3167ad4ddba04a12c94
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-13
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-13
+
+    Add -v to pytest to get more information on failure
+
+commit 111960398e375d952fd320340e4b1e1a757c2c31
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-13
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-13
+
+    Fix wolfssl BIO file memory leak
+
+commit 195aba05b182bfbc6b774f4e239b4b488b57ac13
+Merge: e1dba36d 3b52b858
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-13
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-13
+
+    Merge pull request #560 from ngtcp2/wolfssl-session-file-pem
+    
+    Save wolfssl session in PEM encoding
+
+commit e1dba36d1fdd538f02d5949562fc8ea734193b87
+Merge: 3eeea52f 972face1
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-13
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-13
+
+    Merge pull request #561 from ngtcp2/skip-gtlsserver-bsslclient-earlydata-test
+    
+    Skip early data test between gnutls server and boringssl client for now
+
+commit 972face1832c18fb7703a74cb8c6f2029271dc3d
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-13
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-13
+
+    Skip early data test between gnutls server and boringssl client for now
+
+commit 3b52b8588c41a1be307024942f43a295017324bc
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-13
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-13
+
+    Save wolfssl session in PEM encoding
+
+commit 3eeea52fe743618c1f7c33340b47b1dbe030e595
+Merge: 62489e75 2566c652
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-13
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-13
+
+    Merge pull request #559 from ngtcp2/client-address-validation
+    
+    Fix client side address validation
+
+commit 2566c65264ae9ec3f97083d89d776c356dd489ab
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-13
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-13
+
+    Fix client side address validation
+    
+    Client also validates server source address on successful Handshake
+    packet processing.
+
+commit 62489e75d5fae8e5e5a72a211be5f495246c3136
+Merge: d031263b 8b03a3fe
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-12
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-12
+
+    Merge pull request #558 from ngtcp2/workflow-examples-tests
+    
+    workflow: Run examples/tests
+
+commit 8b03a3feb2b3e3106d41e6ef1a63f45948b7bc27
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-09
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-11
+
+    workflow: Run examples/tests
+    
+    Specify --openssldir to the system path in order to avoid
+    'unregistered scheme' error when receiving client certificate, which
+    is a yet another regression introduced in OpenSSL v3.
+
+commit d031263bc2287445a74b07576081c6616216279a
+Merge: 143fc18a 7d5a8369
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-11
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-11
+
+    Merge pull request #557 from ngtcp2/gtls-groups
+    
+    gtlsclient, gtlsserver: Prioritize X25519 over other groups
+
+commit 143fc18a9d025fa697f69b488511591a4a9a88e3
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-11
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-11
+
+    Update doc
+
+commit 7d5a836937d57e4f9ed76824dd6578284e2ee0bf
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-09
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-11
+
+    gtlsclient, gtlsserver: Prioritize X25519 over other groups
+
+commit 2d50912eebd85270c44c3b7740eea3f8072fa563
+Merge: 3222b913 8289da1e
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-09
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-09
+
+    Merge pull request #556 from ngtcp2/cleanup-examples-tests
+    
+    Minor cleanup for examples/tests
+
+commit 8289da1e29af10aa0eb2e0d99aec90dd91cace0b
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-09
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-09
+
+    Minor cleanup for examples/tests
+
+commit 3222b913d403702836d3591f589d5c1e838027ef
+Merge: 2e53d568 9cbc8567
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-09
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-09
+
+    Merge pull request #550 from icing/examples-tests
+    
+    Examples tests
+
+commit 2e53d56895b28323fa6447f8ac59aa722daf6ad8
+Merge: 0170849f 70c97969
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-09
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-09
+
+    Merge pull request #555 from ngtcp2/gtlsclient-disable-early-data
+    
+    gtlsclient: Honor --disable-early-data
+
+commit 0170849fafe408ce58adb6aed688a72679c6909b
+Merge: b1bd7f05 b810a225
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-09
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-09
+
+    Merge pull request #554 from ngtcp2/shutdown-stream-app-error-code-part2
+    
+    Set app_error_code even if STOP_SENDING is not going to be sent
+
+commit 70c9796942c68dbba6439ccc417b37e6c1923df7
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-09
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-09
+
+    gtlsclient: Honor --disable-early-data
+
+commit b810a22586961cbb41efc8d75a9b4578a4c41ed8
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-09
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-09
+
+    Set app_error_code even if STOP_SENDING is not going to be sent
+
+commit 9cbc8567e102d3efe99b9f43a0094bb8f294a1ca
+Author:     Stefan Eissing <stefan@eissing.org>
+AuthorDate: 2022-09-08
+Commit:     Stefan Eissing <stefan@eissing.org>
+CommitDate: 2022-09-08
+
+    Further test improvements:
+    
+    - test_02: adding --disable-early-data to just check resumption alone
+    - test_03: doing a resumption with early-data disabled, check that no rejection happened
+
+commit b1bd7f05567259e952106b4881b2907dd90382d8
+Merge: c85c8a4e 9921a5fa
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-08
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-08
+
+    Merge pull request #549 from ngtcp2/loss-time-pto
+    
+    conn_get_loss_time_and_pktns: Do not consider num_pto_eliciting
+
+commit c85c8a4e14ae6d073bdb35ca1fded1784122f271
+Merge: bad287ef c309f4d2
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-08
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-08
+
+    Merge pull request #551 from ngtcp2/fix-client-early-data
+    
+    Do not call setup_httpconn from recv_rx_key if early_data is enabled
+
+commit c309f4d29ec867a405f5363022433407a9454344
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-08
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-08
+
+    Do not call setup_httpconn from recv_rx_key if early_data is enabled
+
+commit fc045a57aa57be490cbc5e74009299275dc79925
+Author:     Stefan Eissing <stefan@eissing.org>
+AuthorDate: 2022-09-08
+Commit:     Stefan Eissing <stefan@eissing.org>
+CommitDate: 2022-09-08
+
+    Test improvements:
+    
+    - with improved log scanner, resume failures proved to be test case bugs
+    - removing all resume skips, all clients are expected to be successful
+
+commit d5c8e94158ffd384a86c4284ee9c0017fed794df
+Author:     Stefan Eissing <stefan@eissing.org>
+AuthorDate: 2022-09-08
+Commit:     Stefan Eissing <stefan@eissing.org>
+CommitDate: 2022-09-08
+
+    Test improvements:
+    
+    - adding --tp-file when sessions are used
+    - making the log scanner more robust
+
+commit bad287ef40b4ff11dc6b7a4357ad5bf6472fe8a3
+Merge: 31857570 8935a530
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-08
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-08
+
+    Merge pull request #547 from ngtcp2/unidirectional-shutdown
+    
+    shutdown: Tweak for unidirectional streams
+
+commit 81c1e7d8066171c9ee800b0bfedd949b97adb410
+Author:     Stefan Eissing <stefan@eissing.org>
+AuthorDate: 2022-09-07
+Commit:     Stefan Eissing <stefan@eissing.org>
+CommitDate: 2022-09-07
+
+    Examples tests, adding a pytest suite for the clients/servers built in examples. Testing:
+    
+    - session-less handshake on default config
+    - session establishment and resume
+    - earlydata acceptance/rejection
+    - client certificates present/missing
+    - specific cipher configured on client side
+    
+    See examples/tests/README.rst for more details.
+
+commit 9921a5fadcf0bc81f4e55d29395a1b055bf3fd3a
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-07
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-07
+
+    conn_get_loss_time_and_pktns: Do not consider num_pto_eliciting
+
+commit 8935a530234a10f275d6ab7c955545921c98c7bc
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-07
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-07
+
+    shutdown: Tweak for unidirectional streams
+
+commit 31857570df4b1404dfae244aba51d92f3ca7e878
+Merge: aa5721ca 34af1f59
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-06
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-06
+
+    Merge pull request #545 from ngtcp2/fix-loss-time
+    
+    Fix loss_time offset
+
+commit 34af1f59b811679db76343c6cc1ef32ce239da77
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-06
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-06
+
+    Fix loss_time offset
+
+commit aa5721ca6026bd69818d20ab080bc17b30f80f92
+Merge: dd9ae4f8 6495b051
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-06
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-06
+
+    Merge pull request #544 from ngtcp2/examples-needs-c++20
+    
+    Skip examples if c++ compiler does not support C++20
+
+commit 6495b05176c8d16c0bdc4413ae66a5326a55c3d6
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-05
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-05
+
+    Skip examples if c++ compiler does not support C++20
+
+commit dd9ae4f89505335c7bbc8ab5caf5545b20c88916
+Merge: 0d1de152 3b48887f
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-05
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-05
+
+    Merge pull request #540 from ngtcp2/packet-pacing-all-cc
+    
+    Enable packet pacing for all congestion controllers
+
+commit 0d1de15244ea1c0849ca35e54b76777efe80a9cf
+Merge: ef1a3c56 578c2bb8
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-05
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-05
+
+    Merge pull request #543 from samueloph/patch-1
+    
+    Update README with wolfSSL version number
+
+commit 578c2bb81925afac2c123392d0b7eba769eb0416
+Author:     Samuel Henrique <samueloph@debian.org>
+AuthorDate: 2022-09-04
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-04
+
+    Update README with wolfSSL version number
+    
+    wolfSSL 5.5.0 ships the previously shown commit ID, which adds QUIC/ngtcp2 support.
+
+commit ef1a3c5675219c982cb9aecec6651b0a275455c6
+Merge: 6cd142cc 95933d0f
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-03
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-03
+
+    Merge pull request #539 from ngtcp2/cubic
+    
+    cubic cc enhancement
+
+commit 3b48887f93ec955483b88da53384577863711ba4
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-08-29
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-03
+
+    Enable packet pacing for all congestion controllers
+
+commit 95933d0f692519a3c91eb74daf56a42c69ef9dfc
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-08-28
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-03
+
+    cubic cc enhancement
+    
+    Incorporate draft-ietf-tcpm-rfc8312bis-09 cwnd calculation.
+
+commit 6cd142cccee6c94e7e33bdfb8d39732484ae4fca
+Merge: 1e4b9db8 4b562bbc
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-03
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-03
+
+    Merge pull request #538 from ngtcp2/path-validation-on-immediate-migration
+    
+    Run the path validation in background on immediate migration
+
+commit 4b562bbcd1e0be3a627d6267a4e71a09eb47ed2f
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-03
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-03
+
+    Run the path validation in background on immediate migration
+
+commit 1e4b9db86a014baa9119f56be49e926f580d9d7b
+Merge: fa92270e 743c241e
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-03
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-03
+
+    Merge pull request #537 from ngtcp2/pmtud-current-path
+    
+    Start PMTUD just for the current path after path validation
+
+commit 743c241e760d644d2a47811b2afc54e66439c4d1
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-03
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-03
+
+    Start PMTUD just for the current path after path validation
+
+commit fa92270ef9804935dbc207a08e60f486ba0ae2cf
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-03
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-03
+
+    Just int for bool
+
+commit 38c4a412752fb1061fee4acd953d48eaee48a379
+Merge: ea29191b 49f1d160
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-03
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-03
+
+    Merge pull request #536 from ngtcp2/avoid-pmtud-unverified-path
+    
+    Do not send PMTUD packet to an unvalidated path
+
+commit ea29191bbf494e2c1d4bcad3f1f1cbb15f9c6d92
+Merge: eb2ec124 65a77d6c
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-03
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-03
+
+    Merge pull request #535 from ngtcp2/add-test-path-challenge-current-path
+    
+    Add a test to verify bytes_sent to respond to PATH_CHALLENGE
+
+commit eb2ec1247b60779f58b3013e959f5e067d9c4ce2
+Merge: acc1b645 482cb0ed
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-09-03
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-09-03
+
+    Merge pull request #534 from ngtcp2/fix-amplification-assertion-failure
+    
+    Fix assertion failure due to amplification limit violation
+
+commit 49f1d16010f1eb90dc1000c0e18d794ec4335e58
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-02
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-02
+
+    Do not send PMTUD packet to an unvalidated path
+
+commit 65a77d6ce14ff35e67c12c7691dc6be3e08399f7
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-02
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-02
+
+    Add a test to verify bytes_sent to respond to PATH_CHALLENGE
+
+commit 482cb0eda9099e6807c6078296473294dac23272
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-02
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-02
+
+    Fix assertion failure due to amplification limit violation
+    
+    ngtcp2_conn.c:3071: uint64_t dcid_tx_left(ngtcp2_dcid *): Assertion
+    `dcid->bytes_recv * 3 >= dcid->bytes_sent' failed.
+    
+    This happened because 1RTT ACK only frame is sent without
+    amplification limit.
+
+commit acc1b645d790592fc53003260a360325c7590969
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-09-01
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-09-01
+
+    Bump library version due to the v0.8.1 patch release
+
+commit ee8efbe9aa7f209f483e2fe1e78183e62cd166cb
+Merge: cf0ed041 c3f48059
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-08-29
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-08-29
+
+    Merge pull request #533 from ngtcp2/interop-fix-missing-symbolizer
+    
+    interop: Fix missing llvm symbolizer
+
+commit cf0ed041ce20bfe4a57fdffd235ad899a9a696c7
+Merge: 5b720847 eacb20a9
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-08-29
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-08-29
+
+    Merge pull request #532 from ngtcp2/fix-memory-leak
+    
+    Fix memory leak
+
+commit c3f4805901420e4031b2fe904b63ec3211b319b7
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-08-29
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-08-29
+
+    interop: Fix missing llvm symbolizer
+
+commit eacb20a939dedf5ea54bf5b527e77dce9092a523
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-08-29
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-08-29
+
+    Fix memory leak
+    
+    Amend 2b4ae4d20b9701827f423341dd6d18d9addf23ba
+
+commit 5b72084794113489f2022037972593191a28a094
+Merge: 28d77eb8 2b4ae4d2
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-08-28
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-08-28
+
+    Merge pull request #531 from ngtcp2/call-stream-close-cb-before-map-remove
+    
+    Call stream_close before removing stream from map
+
+commit 2b4ae4d20b9701827f423341dd6d18d9addf23ba
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-08-28
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-08-28
+
+    Call stream_close before removing stream from map
+
+commit 28d77eb8cc67dcc8d11b34893ffe5bb70df133a7
+Merge: c22c989f b92ef189
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-08-25
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-08-25
+
+    Merge pull request #529 from martinthomson/patch-1
+    
+    The QUIC Bit draft is an RFC now
+
+commit b92ef189833fca5fa2323cb1a63e54cc94134474
+Author:     Martin Thomson <mt@lowentropy.net>
+AuthorDate: 2022-08-25
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-08-25
+
+    The QUIC Bit draft is an RFC now
+
+commit c22c989fb3067612845229216a7e62f8f45f8a42
+Merge: 4c19899b e39ada09
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-08-23
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-08-23
+
+    Merge pull request #526 from ngtcp2/nullify-short-hdr-pkt-token
+    
+    ngtcp2_pkt_decode_hd_short: Explicitly nullify token field
+
+commit e39ada09518478190cb58c44b76e591c9c6aa804
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-08-23
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-08-23
+
+    ngtcp2_pkt_decode_hd_short: Explicitly nullify token field
+
+commit 4c19899bbafd8bacfe200539ead3e4e978df3a35
+Merge: be337ffa 32bb08b0
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-08-23
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-08-23
+
+    Merge pull request #525 from ngtcp2/interop-ecn-no-pmtud
+    
+    interop: Disable PMTUD for ecn test case
+
+commit 32bb08b029def32d126f4fcb069d21badee87924
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-08-23
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-08-23
+
+    interop: Disable PMTUD for ecn test case
+    
+    Disable PMTUD for ecn test case because ngtcp2 does not set ECN bit
+    for PMTUD packets.
+
+commit be337ffa8591ab2591a78bb91f984433f96c6a8c
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-08-21
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-08-21
+
+    Bump package version
